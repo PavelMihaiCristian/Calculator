@@ -131,7 +131,7 @@ namespace WindowsFormsApp1
                     display.Text =  result.ToString();
                     calculation_Box.Items.Insert(0, number1 + sign + number2 + "=" + result + "\r\n");
                     break;
-                case "Clear": calculation_Box.Items.Clear();
+                case "ClearBLABLABLA": calculation_Box.Items.Clear();
                     break;
                 default:break;
             }
